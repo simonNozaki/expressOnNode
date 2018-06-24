@@ -82,7 +82,7 @@ var encryption = {
 };
 
 var httpsServer = https.createServer(encryption, app).listen(4000, function(req, res){
-  console.log('Server startup.')
+  console.log(LOG_SERVER_START_UP);
 });
 
 module.exports = app;
