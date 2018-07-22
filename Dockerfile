@@ -3,6 +3,10 @@
 # docker run --name node-webserver -d -p 13000:300 -p 14000:4000 -v /Users/SimonNozaki/ApplicationDevelopment/expressOnNode/src/log /app/nodejs/log node-webserver:1.0.0 
 # docker ps
 # docker ps -a
+# docker container stop node-webserver
+# docker-compose up -d
+# docker-compose ps 
+#
 # curl -g -H "X-Node-App:client1" --insecure https://localhost:14000/api/v1/get_data
 # curl -g -H "X-Node-App:client1" http://localhost:13000/api/v1/get_data
 # =====================================

@@ -1,0 +1,8 @@
+node-app:
+  container_name: "node-webserver"  # コンテナ名
+  ports:
+   - "13000:3000"  # httpのポート
+   - "14000:4000"  # htttpsのポート
+  volumes:
+   - /Users/SimonNozaki/ApplicationDevelopment/expressOnNode/src/log:/app/nodejs/log # ログファイルをマウントします.
+  image: "node-webserver:1.0.0"  # 起動対象のコンテナイメージ
