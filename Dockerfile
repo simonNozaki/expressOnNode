@@ -5,7 +5,9 @@
 # docker ps -a
 # docker container stop node-webserver
 # docker-compose up -d
-# docker-compose ps 
+# docker-compose ps
+# docker-compose down
+# docker-compose run node-app-service node /app/nodejs/app.js
 #
 # curl -g -H "X-Node-App:client1" --insecure https://localhost:14000/api/v1/get_data
 # curl -g -H "X-Node-App:client1" http://localhost:13000/api/v1/get_data

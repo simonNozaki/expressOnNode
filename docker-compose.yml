@@ -1,4 +1,4 @@
-node-app:
+node-app-service: # Service名. "$ docker-compose run"で指定するサービス名です.
   container_name: "node-webserver"  # コンテナ名
   ports:
    - "13000:3000"  # httpのポート
